@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A23272222BC5CD900F27C92 /* Resistor5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23272022BC5CD900F27C92 /* Resistor5Controller.swift */; };
+		1A23272322BC5CD900F27C92 /* Resistor5Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A23272122BC5CD900F27C92 /* Resistor5Controller.xib */; };
+		1A23272622BC654A00F27C92 /* Resistor6Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23272422BC654A00F27C92 /* Resistor6Controller.swift */; };
+		1A23272722BC654A00F27C92 /* Resistor6Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A23272522BC654A00F27C92 /* Resistor6Controller.xib */; };
+		1A23272C22BD1C2300F27C92 /* FlowLayoutCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23272B22BD1C2300F27C92 /* FlowLayoutCollection.swift */; };
+		1A23273022BD255300F27C92 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A23272D22BD255300F27C92 /* icon1.png */; };
+		1A23273122BD255300F27C92 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A23272E22BD255300F27C92 /* icon2.png */; };
+		1A23273222BD255300F27C92 /* iconWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A23272F22BD255300F27C92 /* iconWheel.png */; };
+		1A23273522BD719E00F27C92 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A23273322BD719E00F27C92 /* Model.xcdatamodeld */; };
+		1A23275A22BD78E200F27C92 /* CCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23275922BD78E200F27C92 /* CCManager.swift */; };
+		1A23275C22BD8AE000F27C92 /* ResistorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23275B22BD8AE000F27C92 /* ResistorClass.swift */; };
+		1A23276022BD902F00F27C92 /* resistorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23275E22BD902F00F27C92 /* resistorTableViewCell.swift */; };
+		1A23276122BD902F00F27C92 /* resistorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A23275F22BD902F00F27C92 /* resistorTableViewCell.xib */; };
+		1A23276822BD94D500F27C92 /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23276622BD94D500F27C92 /* FavoritesController.swift */; };
+		1A23276922BD94D500F27C92 /* FavoritesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A23276722BD94D500F27C92 /* FavoritesController.xib */; };
+		1A23276C22BDB58700F27C92 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A23276A22BDB58600F27C92 /* SettingsController.swift */; };
+		1A23276D22BDB58700F27C92 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A23276B22BDB58700F27C92 /* SettingsController.xib */; };
+		1A914DED22BBCAD900681463 /* resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AED296F22BBC9BC0037C524 /* resistor.png */; };
+		1A914DF022BBCC2800681463 /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A914DEE22BBCC2800681463 /* collectionViewCell.swift */; };
+		1A914DF122BBCC2800681463 /* collectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A914DEF22BBCC2800681463 /* collectionViewCell.xib */; };
+		1A914DF322BBE0C400681463 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A914DF222BBE0C400681463 /* Color.swift */; };
+		1A914DF622BC192D00681463 /* uiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A914DF422BC192D00681463 /* uiCollectionViewCell.swift */; };
+		1A914DF722BC192D00681463 /* uiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A914DF522BC192D00681463 /* uiCollectionViewCell.xib */; };
+		1A914DFD22BC4A3F00681463 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A914DFC22BC4A3F00681463 /* TabBarController.swift */; };
+		1A91ABC822BE9F9400029E6E /* resistorCodes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A91ABC722BE9F9300029E6E /* resistorCodes.jpg */; };
+		1A91ABCA22BEA12000029E6E /* codes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91ABC922BEA12000029E6E /* codes.png */; };
+		1AED295A22BBC0EC0037C524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED295922BBC0EC0037C524 /* AppDelegate.swift */; };
+		1AED295C22BBC0EC0037C524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED295B22BBC0EC0037C524 /* ViewController.swift */; };
+		1AED295F22BBC0EC0037C524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AED295D22BBC0EC0037C524 /* Main.storyboard */; };
+		1AED296122BBC0EE0037C524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AED296022BBC0EE0037C524 /* Assets.xcassets */; };
+		1AED296422BBC0EE0037C524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AED296222BBC0EE0037C524 /* LaunchScreen.storyboard */; };
+		1AED296D22BBC2C70037C524 /* ResistorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AED296B22BBC2C70037C524 /* ResistorController.swift */; };
+		1AED296E22BBC2C70037C524 /* ResistorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AED296C22BBC2C70037C524 /* ResistorController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A23272022BC5CD900F27C92 /* Resistor5Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resistor5Controller.swift; sourceTree = "<group>"; };
+		1A23272122BC5CD900F27C92 /* Resistor5Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Resistor5Controller.xib; sourceTree = "<group>"; };
+		1A23272422BC654A00F27C92 /* Resistor6Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resistor6Controller.swift; sourceTree = "<group>"; };
+		1A23272522BC654A00F27C92 /* Resistor6Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Resistor6Controller.xib; sourceTree = "<group>"; };
+		1A23272922BD162300F27C92 /* otpornik.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = otpornik.jpeg; path = /Users/fiveadmin/Desktop/PROJEKT/ResistorCodeCalculator/ResistorCodeCalculator/otpornik.jpeg; sourceTree = "<absolute>"; };
+		1A23272B22BD1C2300F27C92 /* FlowLayoutCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayoutCollection.swift; sourceTree = "<group>"; };
+		1A23272D22BD255300F27C92 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = SOURCE_ROOT; };
+		1A23272E22BD255300F27C92 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = SOURCE_ROOT; };
+		1A23272F22BD255300F27C92 /* iconWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconWheel.png; sourceTree = SOURCE_ROOT; };
+		1A23273422BD719E00F27C92 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1A23275922BD78E200F27C92 /* CCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCManager.swift; sourceTree = "<group>"; };
+		1A23275B22BD8AE000F27C92 /* ResistorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorClass.swift; sourceTree = "<group>"; };
+		1A23275E22BD902F00F27C92 /* resistorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorTableViewCell.swift; sourceTree = "<group>"; };
+		1A23275F22BD902F00F27C92 /* resistorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resistorTableViewCell.xib; sourceTree = "<group>"; };
+		1A23276622BD94D500F27C92 /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		1A23276722BD94D500F27C92 /* FavoritesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesController.xib; sourceTree = "<group>"; };
+		1A23276A22BDB58600F27C92 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		1A23276B22BDB58700F27C92 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsController.xib; sourceTree = "<group>"; };
+		1A914DEE22BBCC2800681463 /* collectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1A914DEF22BBCC2800681463 /* collectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = collectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A914DF222BBE0C400681463 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1A914DF422BC192D00681463 /* uiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		1A914DF522BC192D00681463 /* uiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = uiCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A914DFC22BC4A3F00681463 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1A91ABC722BE9F9300029E6E /* resistorCodes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resistorCodes.jpg; sourceTree = "<group>"; };
+		1A91ABC922BEA12000029E6E /* codes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codes.png; sourceTree = "<group>"; };
+		1AED295622BBC0EC0037C524 /* ResistorCodeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResistorCodeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AED295922BBC0EC0037C524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AED295B22BBC0EC0037C524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AED295E22BBC0EC0037C524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AED296022BBC0EE0037C524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AED296322BBC0EE0037C524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AED296522BBC0EE0037C524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AED296B22BBC2C70037C524 /* ResistorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorController.swift; sourceTree = "<group>"; };
+		1AED296C22BBC2C70037C524 /* ResistorController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResistorController.xib; sourceTree = "<group>"; };
+		1AED296F22BBC9BC0037C524 /* resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resistor.png; path = /Users/fiveadmin/Desktop/PROJEKT/ResistorCodeCalculator/resistor.png; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AED295322BBC0EC0037C524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AED294D22BBC0EC0037C524 = {
+			isa = PBXGroup;
+			children = (
+				1A23276A22BDB58600F27C92 /* SettingsController.swift */,
+				1A23276B22BDB58700F27C92 /* SettingsController.xib */,
+				1A91ABC922BEA12000029E6E /* codes.png */,
+				1A91ABC722BE9F9300029E6E /* resistorCodes.jpg */,
+				1A23276622BD94D500F27C92 /* FavoritesController.swift */,
+				1A23276722BD94D500F27C92 /* FavoritesController.xib */,
+				1A23275E22BD902F00F27C92 /* resistorTableViewCell.swift */,
+				1A23275F22BD902F00F27C92 /* resistorTableViewCell.xib */,
+				1A23275B22BD8AE000F27C92 /* ResistorClass.swift */,
+				1A23275922BD78E200F27C92 /* CCManager.swift */,
+				1A23273322BD719E00F27C92 /* Model.xcdatamodeld */,
+				1A23272B22BD1C2300F27C92 /* FlowLayoutCollection.swift */,
+				1A23272422BC654A00F27C92 /* Resistor6Controller.swift */,
+				1A23272522BC654A00F27C92 /* Resistor6Controller.xib */,
+				1A23272022BC5CD900F27C92 /* Resistor5Controller.swift */,
+				1A23272122BC5CD900F27C92 /* Resistor5Controller.xib */,
+				1A914DFC22BC4A3F00681463 /* TabBarController.swift */,
+				1A914DF222BBE0C400681463 /* Color.swift */,
+				1AED296B22BBC2C70037C524 /* ResistorController.swift */,
+				1AED296C22BBC2C70037C524 /* ResistorController.xib */,
+				1AED296F22BBC9BC0037C524 /* resistor.png */,
+				1AED297122BBC9EF0037C524 /* colorCodeCell */,
+				1AED295822BBC0EC0037C524 /* ResistorCodeCalculator */,
+				1AED295722BBC0EC0037C524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AED295722BBC0EC0037C524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AED295622BBC0EC0037C524 /* ResistorCodeCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AED295822BBC0EC0037C524 /* ResistorCodeCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				1AED295922BBC0EC0037C524 /* AppDelegate.swift */,
+				1AED295B22BBC0EC0037C524 /* ViewController.swift */,
+				1AED295D22BBC0EC0037C524 /* Main.storyboard */,
+				1AED296022BBC0EE0037C524 /* Assets.xcassets */,
+				1A23272922BD162300F27C92 /* otpornik.jpeg */,
+				1AED296222BBC0EE0037C524 /* LaunchScreen.storyboard */,
+				1AED296522BBC0EE0037C524 /* Info.plist */,
+				1A23272D22BD255300F27C92 /* icon1.png */,
+				1A23272E22BD255300F27C92 /* icon2.png */,
+				1A23272F22BD255300F27C92 /* iconWheel.png */,
+			);
+			path = ResistorCodeCalculator;
+			sourceTree = "<group>";
+		};
+		1AED297122BBC9EF0037C524 /* colorCodeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1A914DEE22BBCC2800681463 /* collectionViewCell.swift */,
+				1A914DEF22BBCC2800681463 /* collectionViewCell.xib */,
+				1A914DF422BC192D00681463 /* uiCollectionViewCell.swift */,
+				1A914DF522BC192D00681463 /* uiCollectionViewCell.xib */,
+			);
+			name = colorCodeCell;
+			path = /Users/fiveadmin/Desktop/PROJEKT/ResistorCodeCalculator/ResistorCodeCalculator.xcodeproj;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AED295522BBC0EC0037C524 /* ResistorCodeCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AED296822BBC0EE0037C524 /* Build configuration list for PBXNativeTarget "ResistorCodeCalculator" */;
+			buildPhases = (
+				1AED295222BBC0EC0037C524 /* Sources */,
+				1AED295322BBC0EC0037C524 /* Frameworks */,
+				1AED295422BBC0EC0037C524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResistorCodeCalculator;
+			productName = ResistorCodeCalculator;
+			productReference = 1AED295622BBC0EC0037C524 /* ResistorCodeCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AED294E22BBC0EC0037C524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Five Admin";
+				TargetAttributes = {
+					1AED295522BBC0EC0037C524 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1AED295122BBC0EC0037C524 /* Build configuration list for PBXProject "ResistorCodeCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AED294D22BBC0EC0037C524;
+			productRefGroup = 1AED295722BBC0EC0037C524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AED295522BBC0EC0037C524 /* ResistorCodeCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AED295422BBC0EC0037C524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A914DF122BBCC2800681463 /* collectionViewCell.xib in Resources */,
+				1AED296422BBC0EE0037C524 /* LaunchScreen.storyboard in Resources */,
+				1A23273222BD255300F27C92 /* iconWheel.png in Resources */,
+				1A914DF722BC192D00681463 /* uiCollectionViewCell.xib in Resources */,
+				1A23276122BD902F00F27C92 /* resistorTableViewCell.xib in Resources */,
+				1A914DED22BBCAD900681463 /* resistor.png in Resources */,
+				1A91ABCA22BEA12000029E6E /* codes.png in Resources */,
+				1A23272322BC5CD900F27C92 /* Resistor5Controller.xib in Resources */,
+				1AED296122BBC0EE0037C524 /* Assets.xcassets in Resources */,
+				1A23272722BC654A00F27C92 /* Resistor6Controller.xib in Resources */,
+				1A91ABC822BE9F9400029E6E /* resistorCodes.jpg in Resources */,
+				1A23273122BD255300F27C92 /* icon2.png in Resources */,
+				1AED296E22BBC2C70037C524 /* ResistorController.xib in Resources */,
+				1A23273022BD255300F27C92 /* icon1.png in Resources */,
+				1AED295F22BBC0EC0037C524 /* Main.storyboard in Resources */,
+				1A23276D22BDB58700F27C92 /* SettingsController.xib in Resources */,
+				1A23276922BD94D500F27C92 /* FavoritesController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AED295222BBC0EC0037C524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A23272222BC5CD900F27C92 /* Resistor5Controller.swift in Sources */,
+				1AED295C22BBC0EC0037C524 /* ViewController.swift in Sources */,
+				1A23276822BD94D500F27C92 /* FavoritesController.swift in Sources */,
+				1AED296D22BBC2C70037C524 /* ResistorController.swift in Sources */,
+				1A23272622BC654A00F27C92 /* Resistor6Controller.swift in Sources */,
+				1A914DF622BC192D00681463 /* uiCollectionViewCell.swift in Sources */,
+				1A914DF022BBCC2800681463 /* collectionViewCell.swift in Sources */,
+				1A23276022BD902F00F27C92 /* resistorTableViewCell.swift in Sources */,
+				1A23276C22BDB58700F27C92 /* SettingsController.swift in Sources */,
+				1A914DFD22BC4A3F00681463 /* TabBarController.swift in Sources */,
+				1A23275A22BD78E200F27C92 /* CCManager.swift in Sources */,
+				1A23275C22BD8AE000F27C92 /* ResistorClass.swift in Sources */,
+				1A23272C22BD1C2300F27C92 /* FlowLayoutCollection.swift in Sources */,
+				1A914DF322BBE0C400681463 /* Color.swift in Sources */,
+				1A23273522BD719E00F27C92 /* Model.xcdatamodeld in Sources */,
+				1AED295A22BBC0EC0037C524 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AED295D22BBC0EC0037C524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AED295E22BBC0EC0037C524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AED296222BBC0EE0037C524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AED296322BBC0EE0037C524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AED296622BBC0EE0037C524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AED296722BBC0EE0037C524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AED296922BBC0EE0037C524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResistorCodeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.marijan.klara.ResistorCodeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AED296A22BBC0EE0037C524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ResistorCodeCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.marijan.klara.ResistorCodeCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AED295122BBC0EC0037C524 /* Build configuration list for PBXProject "ResistorCodeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AED296622BBC0EE0037C524 /* Debug */,
+				1AED296722BBC0EE0037C524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AED296822BBC0EE0037C524 /* Build configuration list for PBXNativeTarget "ResistorCodeCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AED296922BBC0EE0037C524 /* Debug */,
+				1AED296A22BBC0EE0037C524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A23273322BD719E00F27C92 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A23273422BD719E00F27C92 /* Model.xcdatamodel */,
+			);
+			currentVersion = 1A23273422BD719E00F27C92 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AED294E22BBC0EC0037C524 /* Project object */;
+}
